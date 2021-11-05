@@ -1,0 +1,19 @@
+pkgbase = swimprove-git
+	pkgdesc = Helpers for my personal Sway configuration
+	pkgver = r2.40e04de
+	pkgrel = 1
+	url = https://github.com/claui/aur-swimprove-git
+	arch = any
+	license = Apache
+	makedepends = git
+	depends = i3status
+	depends = jq
+	depends = systemd
+	optdepends = i3-wm: Window manager to host the custom status bar
+	optdepends = sway: Wayland compositor to host the custom status bar
+	conflicts = swimprove
+	options = !strip
+	source = swimprove-git::git+https://github.com/claui/swimprove.git
+	sha512sums = SKIP
+
+pkgname = swimprove-git

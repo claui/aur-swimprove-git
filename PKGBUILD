@@ -1,15 +1,16 @@
 # Maintainer: Claudia Pellegrino <aur ät cpellegrino.de>
 
 pkgname=swimprove-git
-pkgver=r2.40e04de
+pkgver=r7.ab39ff8
 pkgrel=1
 pkgdesc='Helpers for my personal Sway configuration'
 arch=('any')
-url='https://github.com/claui/aur-swimprove-git'
+url='https://github.com/claui/swimprove'
 license=('Apache')
-depends=('i3status' 'jq' 'systemd')
+depends=('i3status' 'jq' 'sudo' 'systemd')
 makedepends=('git')
 optdepends=(
+  'ectool: Data source for the fan speed'
   'i3-wm: Window manager to host the custom status bar'
   'sway: Wayland compositor to host the custom status bar'
 )

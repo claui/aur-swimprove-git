@@ -1,13 +1,13 @@
 # Maintainer: Claudia Pellegrino <aur ät cpellegrino.de>
 
 pkgname=swimprove-git
-pkgver=r7.ab39ff8
-pkgrel=2
+pkgver=r11.62e074b
+pkgrel=1
 pkgdesc='Helpers for my personal Sway configuration'
 arch=('any')
 url='https://github.com/claui/swimprove'
 license=('Apache-2.0')
-depends=('i3status' 'jq' 'sudo' 'systemd')
+depends=('bash' 'i3status' 'jq' 'sudo' 'systemd')
 makedepends=('git')
 optdepends=(
   'ectool: Data source for the fan speed'
